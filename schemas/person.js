@@ -29,6 +29,21 @@ export default {
         hotspot: true,
       },
     },
+    {
+      name: 'website',
+      title: 'Website (url)',
+      type: 'url',
+    },
+    {
+      name: 'twitter',
+      title: 'Twitter (url)',
+      type: 'url',
+    },
+    {
+      name: 'bio',
+      title: 'Short Bio',
+      type: 'blockContent',
+    },
   ],
   preview: {
     select: {title: 'name', media: 'image'},
