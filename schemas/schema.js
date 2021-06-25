@@ -9,6 +9,7 @@ import organizer from './organizer'
 import event from './event'
 import talk from './talk'
 import person from './person'
+import eventTalk from './eventTalk'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -21,10 +22,11 @@ export default createSchema({
     // in the studio.
     event,
     person,
+    organizer,
+    talk,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     blockContent,
-    organizer,
-    talk,
+    eventTalk,
   ]),
 })

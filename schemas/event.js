@@ -50,10 +50,10 @@ export default {
       type: 'url',
     },
     {
-      name: 'talks',
+      name: 'eventTalks',
       title: 'Talks',
       type: 'array',
-      of: [{type: 'talk'}],
+      of: [{type: 'eventTalk'}],
     },
   ],
 }
