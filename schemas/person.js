@@ -44,6 +44,12 @@ export default {
       title: 'Short Bio',
       type: 'blockContent',
     },
+    {
+      name: 'organizer',
+      title: 'Organizer',
+      type: 'boolean',
+      description: 'Set to organizer if this person is one of the meetup organizers',
+    },
   ],
   preview: {
     select: {title: 'name', media: 'image'},
