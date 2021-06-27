@@ -32,16 +32,16 @@ export default {
       type: 'blockContent',
     },
     {
+      name: 'startAt',
+      title: 'Starts at',
+      type: 'richDate',
+      description: 'When does the event start?',
+    },
+    {
       name: 'beginAt',
       title: 'Starts at',
       type: 'datetime',
       description: 'When does the event start?',
-    },
-    {
-      name: 'endAt',
-      title: 'Ends at',
-      type: 'datetime',
-      description: 'When does the event end?',
     },
     {
       name: 'liveUrl',
