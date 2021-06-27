@@ -38,12 +38,6 @@ export default {
       description: 'When does the event start?',
     },
     {
-      name: 'beginAt',
-      title: 'Starts at',
-      type: 'datetime',
-      description: 'When does the event start?',
-    },
-    {
       name: 'liveUrl',
       title: 'Live URL',
       description: 'e.g., Zoom link',
