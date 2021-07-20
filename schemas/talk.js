@@ -31,5 +31,10 @@ export default {
       type: 'reference',
       to: [{type: 'person'}],
     },
+    {
+      name: 'youtube',
+      title: 'Youtube ID for recording (not full URL)',
+      type: 'string',
+    },
   ],
 }
