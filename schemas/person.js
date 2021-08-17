@@ -13,6 +13,11 @@ export default {
       description: 'Please use "Firstname Lastname" format',
     },
     {
+      name: 'pronouns',
+      title: 'Pronouns',
+      type: 'string'
+    },
+    {
       name: 'slug',
       title: 'Slug',
       type: 'slug',
