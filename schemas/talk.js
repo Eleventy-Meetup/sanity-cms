@@ -36,5 +36,11 @@ export default {
       title: 'Youtube ID for recording (not full URL)',
       type: 'string',
     },
+    {
+      type: "markdown",
+      description: "A Github flavored markdown field for the talk's transcript",
+      title: "Transcript (markdown)",
+      name: "transcript"
+    }
   ],
 }
