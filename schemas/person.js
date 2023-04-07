@@ -45,6 +45,11 @@ export default {
       type: 'url',
     },
     {
+      name: 'mastodon',
+      title: 'Mastodon (url)',
+      type: 'url',
+    },
+    {
       name: 'bio',
       title: 'Short Bio',
       type: 'blockContent',
