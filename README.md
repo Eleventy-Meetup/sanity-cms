@@ -22,3 +22,19 @@ This is the [Sanity CMS](https://www.sanity.io/) for [11tymeetup.dev](https://11
 1. Make your changes and commit them.
 1. Push your changes to your fork.
 1. Create a pull request to the main repository.
+
+## Deploying
+
+Make sure all the code changes are live in Github.
+
+First, login to Sanity:
+
+```
+npx sanity login
+```
+
+Then build and deploy:
+
+```
+npx sanity deploy
+```
