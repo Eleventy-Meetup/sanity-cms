@@ -1,21 +1,24 @@
-# Sanity Movies Content Studio
+# Sanity CMS for 11tymeetup.dev
 
-Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
+This is the [Sanity CMS](https://www.sanity.io/) for [11tymeetup.dev](https://11tymeetup.dev).
 
-Now you can do the following things:
+## Local Development
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- Check out one of the example frontends: [React](https://github.com/sanity-io/example-frontend-next-js) | [React Native](https://github.com/sanity-io/example-app-react-native) | [Vue](https://github.com/sanity-io/example-frontend-vue-js) | [PHP](https://github.com/sanity-io/example-frontend-silex-twig)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+1. Run `npm install` to install the dependencies.
+1. If this is your first time running the project, [setup a new Sanity Studio project](https://www.sanity.io/learn/course/content-driven-web-application-foundations/create-a-new-sanity-project). Once you've
+   done that, create a `.env` file in the root of the project with the following content:
+
+   ```env
+   SANITY_STUDIO_PROJECT_ID=your_project_id
+   ```
+
+1. Run `npm run dev` to start the Sanity Studio locally.
+1. Open [http://localhost:3333](http://localhost:3333) in your browser to view the Sanity Studio.
 
 ## Contributing
 
-Run `npm start` to start a local dev server for the studio. Commit all your changes to a branch and then create a pull request.
-
-Once the changes are approved, merge them and then pull the changes to the `main` branch on your local machine. Then you'll need to login and deploy from your CLI:
-
-```
-$ sanity login
-$ sanity deploy
-```
+1. Fork the repository.
+1. Create a new branch for your changes.
+1. Make your changes and commit them.
+1. Push your changes to your fork.
+1. Create a pull request to the main repository.
