@@ -40,8 +40,13 @@ export default {
       type: 'url',
     },
     {
+      name: 'bluesky',
+      title: 'Bluesky (url)',
+      type: 'url',
+    },
+    {
       name: 'twitter',
-      title: 'Twitter (url)',
+      title: 'Twitter (url) NOT USED ANYMORE',
       type: 'url',
     },
     {
