@@ -3,3 +3,4 @@
 package-lock.json
 .env*
 .sanity
+.DS_Store

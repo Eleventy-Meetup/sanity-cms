@@ -15,16 +15,16 @@
     "sanity"
   ],
   "dependencies": {
-    "@sanity/google-maps-input": "^4.1.0",
-    "@sanity/rich-date-input": "^3.0.5",
-    "@sanity/vision": "^3.79.0",
+    "@sanity/google-maps-input": "^4.2.1",
+    "@sanity/rich-date-input": "^4.0.2",
+    "@sanity/vision": "^5.5.0",
     "easymde": "^2.20.0",
     "prop-types": "^15.8.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
-    "sanity": "^3.79.0",
-    "sanity-plugin-markdown": "^5.1.0",
+    "sanity": "^5.5.0",
+    "sanity-plugin-markdown": "^8.0.4",
     "styled-components": "^6.1.15"
   },
   "repository": {
